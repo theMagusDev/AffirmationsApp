@@ -16,6 +16,7 @@ import org.junit.runner.RunWith
 class AffirmationsListTests {
     @get:Rule
     val activity = ActivityScenarioRule(MainActivity::class.java)
+    // ActivityScenarioRule isolates an activity for testing
 
     @Test
     fun scroll_to_position() {
